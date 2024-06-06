@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de festas</title>
+    <link rel="stylesheet" href="cadastro.css">
+</head>
+<body>
+    <main>
+        <section class="section">
+            <div class="div-form">
+                <form class="div-form-atualizar" action="ControllerEncantado" name="f1" method="post">
+                    <img class="imglogin" src="IMG/logowfull.jpg" alt="LogoEspacoEncantado">
+                    <div class="titulo-div">
+                        <h1>CADASTRO DE FESTAS</h1>
+                        <p>Cadastre aqui a festa!</p>
+                    </div>
+                    <div class="label-div">
+                        
+                   
+                        Id: <input type="text" name ="txtid" disabled=""><BR>
+                        
+                    <label>Nome da Festa:</label>
+                    <input type="text" id="nomeFesta" name="txtnomeFesta" placeholder="Digite o nome da Festa:">
+
+                    <label>Tema:</label>
+                    <input type="text" id="tema" name="txttema" placeholder="Digite o Tema:">
+
+                    <label>Período:</label>
+                    <input type="text" id="periodo" name="txtperiodo" placeholder="Digite o período:">
+
+                    <label>Endereço:</label>
+                    <input type="text" id="endereco" name="txtendereco" placeholder="Digite o local:">
+
+                    <label>Lista de convidados:</label>
+                    <input type="number" id="listaConvidados" name="txtlistaConvidados" placeholder="Digite a quantidade de convidados:">
+
+                    <label>Menu:</label>
+                    <input type="text" id="menu" name="txtmenu" placeholder="Digite o menu:">
+
+                    <label>Atividades:</label>
+                    <input type="text" id="atividades" name="txtatividades" placeholder="Digite as atividades:">
+
+                    <label>Decoração:</label>
+                    <input type="text" id="decoracao" name="txtdecoracao" placeholder="Digite a decoração:">
+                    
+                    <label>Observações Especiais:</label>
+                    <input type="text" id="obsEspeciais" name="txtobsEspeciais" placeholder="Digite as observações especais:">
+
+                    <label>Orçamento: R$</label>
+                    <input type="number" id="orcamento" name="txtorcamento" placeholder="Digite o valor:">
+
+                    </div>
+                    <button type="submit" class="botaoGeral" name="btnoperacao" value="CADASTRAR"   >Enviar</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer footer-atualizar">
+        <div class="footer-div">  
+            <p>  <img class="imgmini" src="IMG/chapeu_mini_logo-removebg-preview.png"></p>
+            <p> 2024 - Todos os direitos reservados</p>
+        </div>
+    </footer>
+    <script src="limpar.js" defer></script>
+</body>
+</html>

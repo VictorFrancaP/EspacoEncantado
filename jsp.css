@@ -1,0 +1,51 @@
+/* fonts */
+
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&family=Martian+Mono:wght@100..800&display=swap');
+
+/* Global */
+
+* {
+    padding: 1.0rem;
+    margin: 0;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+html {
+    font-size: 70.5%;
+    text-align: center;
+}
+
+body {
+    color: black;
+    font-family: "Exo 2", sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.4;
+    background-color: #f5f7f9;
+}
+
+.botao {
+    
+    padding: 1.02rem 3.12rem;
+    text-transform: uppercase;
+    border-radius: 1.6rem;
+    border: 0;
+    color: #fff;
+    background-color: #215390;
+    border-right: 0.3rem solid rgb(12, 43, 63);
+    border-bottom: 0.3rem solid rgb(12, 43, 63);
+    font-size: inherit;
+    font-family: inherit;
+ 
+    &:hover {
+        border: none;
+    }
+}
+
+
+
+
+
+
+
+
